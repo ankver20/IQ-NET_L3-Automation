@@ -1,0 +1,18 @@
+[2020-05-03 11:33:08]: Started process.  Command line: 
+[2020-05-03 11:33:08]:      port number: 56692
+[2020-05-03 11:33:08]:    timeout value: 120
+[2020-05-03 11:33:08]:       log option: log
+[2020-05-03 11:33:08]: results dir path: C:\COLT\Ankit\DOCUMENTS_COLT\COLT-DOC\IQ-NET\Automation\RobotFrameWork\IQ-NET_L3-Lab\csit\suites
+[2020-05-03 11:33:08]:    log file name: robot.hltlog
+[2020-05-03 11:33:08]: Working directory is now: C:/COLT/Ankit/DOCUMENTS_COLT/COLT-DOC/IQ-NET/Automation/RobotFrameWork/IQ-NET_L3-Lab/csit/suites
+[2020-05-03 11:33:08]: Sourcing initialization file "stcinit.srv".
+[2020-05-03 11:33:08]: Connecting to port 56692 on 127.0.0.1.
+[2020-05-03 11:33:08]: Creating server socket.
+[2020-05-03 11:33:08]: Generated port number: 56695
+[2020-05-03 11:33:08]: Setting up timeout check.
+[2020-05-03 11:33:08]: Waiting for client connection.
+[2020-05-03 11:33:08]: Client connection from 127.0.0.1 port 56696.
+[2020-05-03 11:33:08]: Executing: <package require SpirentHltApi>
+[2020-05-03 11:33:23]: Return value: <4.67>
+[2020-05-03 11:33:23]: custom_path--C:/COLT/Ankit/DOCUMENTS_COLT/COLT-DOC/IQ-NET/Automation/RobotFrameWork/IQ-NET_L3-Lab/csit/suites
+[2020-05-03 11:33:44]: Client connection has been broken.  Exiting.

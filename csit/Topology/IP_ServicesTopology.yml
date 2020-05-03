@@ -1,0 +1,148 @@
+---
+Device_Details:
+  9K_R1:
+    device_type: cisco_xr
+    ip: 10.91.126.101
+    port: '22'
+    username: averma2
+    password: Ank#2018
+  9K_R2:
+    device_type: cisco_xr
+    ip: 10.91.126.102
+    port: '22'
+    username: averma2
+    password: Ank#2018
+  9K_R3:
+    device_type: cisco_xr
+    ip: 10.91.126.103
+    port: '22'
+    username: averma2
+    password: Ank#2018
+  9K_R4:
+    device_type: cisco_xr
+    ip: 10.91.126.104
+    port: '22'
+    username: averma2
+    password: Ank#2018
+  NCS_R1:
+    device_type: cisco_xr
+    ip: 10.91.126.111
+    port: '22'
+    username: averma2
+    password: Ank#2018
+  NCS_R2:
+    device_type: cisco_xr
+    ip: 10.91.126.112
+    port: '22'
+    username: averma2
+    password: Ank#2018
+  NCS_R3:
+    device_type: cisco_xr
+    ip: 10.91.126.113
+    port: '22'
+    username: averma2
+    password: Ank#2018
+  NCS_R4:
+    device_type: cisco_xr
+    ip: 10.91.126.114
+    port: '22'
+    username: averma2
+    password: Ank#2018
+  ACC_R1:
+    device_type: accedian
+    ip: 10.91.112.125
+    port: '22'
+    username: admin
+    password: admin
+  ACC_R2:
+    device_type: accedian
+    ip: 10.91.112.xx
+    port: '22'
+    username: admin
+    password: admin
+  ACC_R3:
+    device_type: accedian
+    ip: 10.91.121.xx
+    port: '22'
+    username: admin
+    password: admin
+  ACC_R4:
+    device_type: accedian
+    ip: 10.91.121.xx
+    port: '22'
+    username: admin
+    password: admin
+  CPE_R1:
+    device_type: cisco_ios
+    ip: 10.91.141.164
+    port: '23'
+    username: colt123
+    password: colt123
+  CPE_R2:
+    device_type: cisco_ios
+    ip: 10.91.121.155
+    port: '22'
+    username: colt123
+    password: colt123
+  CPE_R3:
+    device_type: cisco_ios
+    ip: 10.91.121.xx
+    port: '22'
+    username: colt123
+    password: colt123
+  CPE_R4:
+    device_type: cisco_ios
+    ip: 10.91.121.xx
+    port: '22'
+    username: colt123
+    password: colt123
+
+Port_Details:
+  9K_R1:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  9K_R2:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  9K_R3:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  9K_R4:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  NCS_R1:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  NCS_R2:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  NCS_R3:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  NCS_R4:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  ACC_R1:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  ACC_R2:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  ACC_R3:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  ACC_R4:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  CPE_R1:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  CPE_R2:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  CPE_R3:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
+  CPE_R4:
+    P1: TenGigE0/0/0/11
+    P2: TenGigE0/0/0/11
