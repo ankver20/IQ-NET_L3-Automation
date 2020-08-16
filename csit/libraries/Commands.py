@@ -21,7 +21,8 @@ def show_commands(net_connect, **kwargs):
     # display the output
     output2 = prompt + show_cmd + '\n' + output1
     print(output2)
-    return output2
+    output2_list = output2.split('\n')
+    return output2_list
     # template_fsm = open(file_path + "/TEXTFSM/" + kwargs['textfsm_template'])
     # out_table = textfsm.TextFSM(template_fsm)
     # # print(out_table)
