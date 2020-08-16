@@ -149,6 +149,18 @@ Setup Actions
     Builtin.Set_Suite_Variable    ${CPE_R1_P1}    #global variable
     Builtin.Set_Suite_Variable    ${CPE_R1_P2}    #global variable
 
+    ## CPE_R2 ##
+    ${CPE_R2_DICT}    get from dictionary    ${DEV_DICT}    CPE_R2    #CPE_R2 dictionary
+    ${CPE_R2_net_connect}    Make Connection    ${CPE_R2_DICT}    #ssh to CPE_R2
+    Builtin.Set_Suite_Variable    ${CPE_R2_net_connect}
+    Log To Console    Connection Establihed to CPE_R2
+    # Port Details
+    ${PORT_CPE_R2}    get from dictionary    ${PORT_DICT}    CPE_R2    #get CPE_R2 link dictionary
+    ${CPE_R2_P1}    get from dictionary    ${PORT_CPE_R2}    P1    #get CPE_R2_P1 link
+    ${CPE_R2_P2}    get from dictionary    ${PORT_CPE_R2}    P2    #get CPE_R2_P2 link
+    Builtin.Set_Suite_Variable    ${CPE_R2_P1}    #global variable
+    Builtin.Set_Suite_Variable    ${CPE_R2_P2}    #global variable
+
 Teardown Actions
     Log To Console    Teardown Actions done here
     Close Connection    ${9K_R1_net_connect}
@@ -167,7 +179,7 @@ Teardown Actions
 #	Close Connection    ${ACC_R4_net_connect}
 
     Close Connection    ${CPE_R1_net_connect}
-#	Close Connection    ${CPE_R2_net_connect}
+	Close Connection    ${CPE_R2_net_connect}
 #	Close Connection    ${CPE_R3_net_connect}
 #	Close Connection    ${CPE_R4_net_connect}
 
