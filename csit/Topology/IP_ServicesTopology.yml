@@ -29,7 +29,7 @@ Device_Details:
     ip: 10.91.126.111
     port: '22'
     username: averma2
-    password: Ank#2018
+    password: Ank#2020
   NCS_R2:
     device_type: cisco_xr
     ip: 10.91.126.112
@@ -47,7 +47,7 @@ Device_Details:
     ip: 10.91.126.114
     port: '22'
     username: averma2
-    password: Ank#2018
+    password: Ank#2020
   ACC_R1:
     device_type: accedian
     ip: 10.91.112.125
@@ -75,15 +75,15 @@ Device_Details:
   CPE_R1:
     device_type: cisco_ios
     ip: 10.91.141.164
-    port: '23'
-    username: colt123
-    password: colt123
+    port: '22'
+    username: averma2
+    password: Ank#2020
   CPE_R2:
     device_type: cisco_ios
     ip: 10.91.121.155
-    port: '22'
-    username: colt123
-    password: colt123
+    port: '23'
+    username: colt
+    password: colt
   CPE_R3:
     device_type: cisco_ios
     ip: 10.91.121.xx
