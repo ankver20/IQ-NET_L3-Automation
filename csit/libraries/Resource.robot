@@ -32,41 +32,41 @@ Setup Actions
     Builtin.Set_Suite_Variable    ${9K_R1_P1}    #global variable
     Builtin.Set_Suite_Variable    ${9K_R1_P2}    #global variable
 
-    ## 9K_R2 ##
-    ${9K_R2_DICT}    get from dictionary    ${DEV_DICT}    9K_R2    #9K_R2 dictionary
-    ${9K_R2_net_connect}    Make Connection    ${9K_R2_DICT}    #ssh to 9K_R2
-    Builtin.Set_Suite_Variable    ${9K_R2_net_connect}
-    Log To Console    Connection Establihed to 9K_R2
-    # Port Details
-    ${PORT_9K_R2}    get from dictionary    ${PORT_DICT}    9K_R2    #get 9K_R2 link dictionary
-    ${9K_R2_P1}    get from dictionary    ${PORT_9K_R2}    P1    #get 9K_R2_P1 link
-    ${9K_R2_P2}    get from dictionary    ${PORT_9K_R2}    P2    #get 9K_R2_P2 link
-    Builtin.Set_Suite_Variable    ${9K_R2_P1}    #global variable
-    Builtin.Set_Suite_Variable    ${9K_R2_P2}    #global variable
+#    ## 9K_R2 ##
+#    ${9K_R2_DICT}    get from dictionary    ${DEV_DICT}    9K_R2    #9K_R2 dictionary
+#    ${9K_R2_net_connect}    Make Connection    ${9K_R2_DICT}    #ssh to 9K_R2
+#    Builtin.Set_Suite_Variable    ${9K_R2_net_connect}
+#    Log To Console    Connection Establihed to 9K_R2
+#    # Port Details
+#    ${PORT_9K_R2}    get from dictionary    ${PORT_DICT}    9K_R2    #get 9K_R2 link dictionary
+#    ${9K_R2_P1}    get from dictionary    ${PORT_9K_R2}    P1    #get 9K_R2_P1 link
+#    ${9K_R2_P2}    get from dictionary    ${PORT_9K_R2}    P2    #get 9K_R2_P2 link
+#    Builtin.Set_Suite_Variable    ${9K_R2_P1}    #global variable
+#    Builtin.Set_Suite_Variable    ${9K_R2_P2}    #global variable
 
-    ## 9K_R3 ##
-    ${9K_R3_DICT}    get from dictionary    ${DEV_DICT}    9K_R3    #9K_R3 dictionary
-    ${9K_R3_net_connect}    Make Connection    ${9K_R3_DICT}    #ssh to 9K_R3
-    Builtin.Set_Suite_Variable    ${9K_R3_net_connect}
-    Log To Console    Connection Establihed to 9K_R3
-    # Port Details
-    ${PORT_9K_R3}    get from dictionary    ${PORT_DICT}    9K_R3    #get 9K_R1 link dictionary
-    ${9K_R3_P1}    get from dictionary    ${PORT_9K_R3}    P1    #get 9K_R3_P1 link
-    ${9K_R3_P2}    get from dictionary    ${PORT_9K_R3}    P2    #get 9K_R3_P2 link
-    Builtin.Set_Suite_Variable    ${9K_R3_P1}    #global variable
-    Builtin.Set_Suite_Variable    ${9K_R3_P2}    #global variable
+#    ## 9K_R3 ##
+#    ${9K_R3_DICT}    get from dictionary    ${DEV_DICT}    9K_R3    #9K_R3 dictionary
+#    ${9K_R3_net_connect}    Make Connection    ${9K_R3_DICT}    #ssh to 9K_R3
+#    Builtin.Set_Suite_Variable    ${9K_R3_net_connect}
+#    Log To Console    Connection Establihed to 9K_R3
+#    # Port Details
+#    ${PORT_9K_R3}    get from dictionary    ${PORT_DICT}    9K_R3    #get 9K_R1 link dictionary
+#    ${9K_R3_P1}    get from dictionary    ${PORT_9K_R3}    P1    #get 9K_R3_P1 link
+#    ${9K_R3_P2}    get from dictionary    ${PORT_9K_R3}    P2    #get 9K_R3_P2 link
+#    Builtin.Set_Suite_Variable    ${9K_R3_P1}    #global variable
+#    Builtin.Set_Suite_Variable    ${9K_R3_P2}    #global variable
 
-    ## 9K_R4 ##
-    ${9K_R4_DICT}    get from dictionary    ${DEV_DICT}    9K_R4    #9K_R4 dictionary
-    ${9K_R4_net_connect}    Make Connection    ${9K_R4_DICT}    #ssh to 9K_R4
-    Builtin.Set_Suite_Variable    ${9K_R4_net_connect}
-    Log To Console    Connection Establihed to 9K_R4
-    # Port Details
-    ${PORT_9K_R4}    get from dictionary    ${PORT_DICT}    9K_R4    #get 9K_R4 link dictionary
-    ${9K_R4_P1}    get from dictionary    ${PORT_9K_R4}    P1    #get 9K_R4_P1 link
-    ${9K_R4_P2}    get from dictionary    ${PORT_9K_R4}    P2    #get 9K_R4_P2 link
-    Builtin.Set_Suite_Variable    ${9K_R4_P1}    #global variable
-    Builtin.Set_Suite_Variable    ${9K_R4_P2}    #global variable
+#    ## 9K_R4 ##
+#    ${9K_R4_DICT}    get from dictionary    ${DEV_DICT}    9K_R4    #9K_R4 dictionary
+#    ${9K_R4_net_connect}    Make Connection    ${9K_R4_DICT}    #ssh to 9K_R4
+#    Builtin.Set_Suite_Variable    ${9K_R4_net_connect}
+#    Log To Console    Connection Establihed to 9K_R4
+#    # Port Details
+#    ${PORT_9K_R4}    get from dictionary    ${PORT_DICT}    9K_R4    #get 9K_R4 link dictionary
+#    ${9K_R4_P1}    get from dictionary    ${PORT_9K_R4}    P1    #get 9K_R4_P1 link
+#    ${9K_R4_P2}    get from dictionary    ${PORT_9K_R4}    P2    #get 9K_R4_P2 link
+#    Builtin.Set_Suite_Variable    ${9K_R4_P1}    #global variable
+#    Builtin.Set_Suite_Variable    ${9K_R4_P2}    #global variable
 
 
     ## Details for NCS devices ##
@@ -83,41 +83,41 @@ Setup Actions
     Builtin.Set_Suite_Variable    ${NCS_R1_P1}    #global variable
     Builtin.Set_Suite_Variable    ${NCS_R1_P2}    #global variable
 
-    ## NCS_R2 ##
-    ${NCS_R2_DICT}    get from dictionary    ${DEV_DICT}    NCS_R2    #NCS_R2 dictionary
-    ${NCS_R2_net_connect}    Make Connection    ${NCS_R2_DICT}    #ssh to NCS_R2
-    Builtin.Set_Suite_Variable    ${NCS_R2_net_connect}
-    Log To Console    Connection Establihed to NCS_R2
-    # Port Details
-    ${PORT_NCS_R2}    get from dictionary    ${PORT_DICT}    NCS_R2    #get NCS_R2 link dictionary
-    ${NCS_R2_P1}    get from dictionary    ${PORT_NCS_R2}    P1    #get NCS_R2_P1 link
-    ${NCS_R2_P2}    get from dictionary    ${PORT_NCS_R2}    P2    #get NCS_R2_P2 link
-    Builtin.Set_Suite_Variable    ${NCS_R2_P1}    #global variable
-    Builtin.Set_Suite_Variable    ${NCS_R2_P2}    #global variable
+#    ## NCS_R2 ##
+#    ${NCS_R2_DICT}    get from dictionary    ${DEV_DICT}    NCS_R2    #NCS_R2 dictionary
+#    ${NCS_R2_net_connect}    Make Connection    ${NCS_R2_DICT}    #ssh to NCS_R2
+#    Builtin.Set_Suite_Variable    ${NCS_R2_net_connect}
+#    Log To Console    Connection Establihed to NCS_R2
+#    # Port Details
+#    ${PORT_NCS_R2}    get from dictionary    ${PORT_DICT}    NCS_R2    #get NCS_R2 link dictionary
+#    ${NCS_R2_P1}    get from dictionary    ${PORT_NCS_R2}    P1    #get NCS_R2_P1 link
+#    ${NCS_R2_P2}    get from dictionary    ${PORT_NCS_R2}    P2    #get NCS_R2_P2 link
+#    Builtin.Set_Suite_Variable    ${NCS_R2_P1}    #global variable
+#    Builtin.Set_Suite_Variable    ${NCS_R2_P2}    #global variable
 
-    ## NCS_R3 ##
-    ${NCS_R3_DICT}    get from dictionary    ${DEV_DICT}    NCS_R3    #NCS_R3 dictionary
-    ${NCS_R3_net_connect}    Make Connection    ${NCS_R3_DICT}    #ssh to NCS_R3
-    Builtin.Set_Suite_Variable    ${NCS_R3_net_connect}
-    Log To Console    Connection Establihed to NCS_R3
-    # Port Details
-    ${PORT_NCS_R3}    get from dictionary    ${PORT_DICT}    NCS_R3    #get NCS_R3 link dictionary
-    ${NCS_R3_P1}    get from dictionary    ${PORT_NCS_R3}    P1    #get NCS_R3_P1 link
-    ${NCS_R3_P2}    get from dictionary    ${PORT_NCS_R3}    P2    #get NCS_R3_P2 link
-    Builtin.Set_Suite_Variable    ${NCS_R3_P1}    #global variable
-    Builtin.Set_Suite_Variable    ${NCS_R3_P2}    #global variable
+#    ## NCS_R3 ##
+#    ${NCS_R3_DICT}    get from dictionary    ${DEV_DICT}    NCS_R3    #NCS_R3 dictionary
+#    ${NCS_R3_net_connect}    Make Connection    ${NCS_R3_DICT}    #ssh to NCS_R3
+#    Builtin.Set_Suite_Variable    ${NCS_R3_net_connect}
+#    Log To Console    Connection Establihed to NCS_R3
+#    # Port Details
+#    ${PORT_NCS_R3}    get from dictionary    ${PORT_DICT}    NCS_R3    #get NCS_R3 link dictionary
+#    ${NCS_R3_P1}    get from dictionary    ${PORT_NCS_R3}    P1    #get NCS_R3_P1 link
+#    ${NCS_R3_P2}    get from dictionary    ${PORT_NCS_R3}    P2    #get NCS_R3_P2 link
+#    Builtin.Set_Suite_Variable    ${NCS_R3_P1}    #global variable
+#    Builtin.Set_Suite_Variable    ${NCS_R3_P2}    #global variable
 
-    ## NCS_R4 ##
-    ${NCS_R4_DICT}    get from dictionary    ${DEV_DICT}    NCS_R4    #NCS_R4 dictionary
-    ${NCS_R4_net_connect}    Make Connection    ${NCS_R4_DICT}    #ssh to NCS_R4
-    Builtin.Set_Suite_Variable    ${NCS_R4_net_connect}
-    Log To Console    Connection Establihed to NCS_R4
-    # Port Details
-    ${PORT_NCS_R4}    get from dictionary    ${PORT_DICT}    NCS_R4    #get NCS_R4 link dictionary
-    ${NCS_R4_P1}    get from dictionary    ${PORT_NCS_R4}    P1    #get NCS_R4_P1 link
-    ${NCS_R4_P2}    get from dictionary    ${PORT_NCS_R4}    P2    #get NCS_R4_P2 link
-    Builtin.Set_Suite_Variable    ${NCS_R4_P1}    #global variable
-    Builtin.Set_Suite_Variable    ${NCS_R4_P2}    #global variable
+#    ## NCS_R4 ##
+#    ${NCS_R4_DICT}    get from dictionary    ${DEV_DICT}    NCS_R4    #NCS_R4 dictionary
+#    ${NCS_R4_net_connect}    Make Connection    ${NCS_R4_DICT}    #ssh to NCS_R4
+#    Builtin.Set_Suite_Variable    ${NCS_R4_net_connect}
+#    Log To Console    Connection Establihed to NCS_R4
+#    # Port Details
+#    ${PORT_NCS_R4}    get from dictionary    ${PORT_DICT}    NCS_R4    #get NCS_R4 link dictionary
+#    ${NCS_R4_P1}    get from dictionary    ${PORT_NCS_R4}    P1    #get NCS_R4_P1 link
+#    ${NCS_R4_P2}    get from dictionary    ${PORT_NCS_R4}    P2    #get NCS_R4_P2 link
+#    Builtin.Set_Suite_Variable    ${NCS_R4_P1}    #global variable
+#    Builtin.Set_Suite_Variable    ${NCS_R4_P2}    #global variable
 
 
     ## Details for Accedian devices ##
