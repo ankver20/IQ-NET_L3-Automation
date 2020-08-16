@@ -28,6 +28,10 @@ L3_Test
     ${template_data}=    Create Dictionary    blank='blank'
     ${show_result}=    SHOW COMMAND    ${CPE_R1_net_connect}    Sh_Ver    ${template_data}
     log to console    ${show_result}
+    ${template_data}=    Create Dictionary    blank='blank'
+    ${show_result}=    SHOW COMMAND    ${CPE_R2_net_connect}    Sh_Ver    ${template_data}
+    log to console    ${show_result}
+    
     log to console  testdone
 
 
