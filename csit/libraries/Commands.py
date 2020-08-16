@@ -19,7 +19,7 @@ def show_commands(net_connect, **kwargs):
     prompt = net_connect.find_prompt()
     output1 = net_connect.send_command_expect(show_cmd)
     # display the output
-    output2 = prompt + show_cmd + output1
+    output2 = prompt + show_cmd + '\n' + output1
     print(output2)
     return output2
     # template_fsm = open(file_path + "/TEXTFSM/" + kwargs['textfsm_template'])
