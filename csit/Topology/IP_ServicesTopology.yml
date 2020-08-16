@@ -81,7 +81,7 @@ Device_Details:
   CPE_R2:
     device_type: cisco_ios
     ip: 10.91.121.155
-    port: '23'
+    port: '22'
     username: colt
     password: colt
   CPE_R3:
