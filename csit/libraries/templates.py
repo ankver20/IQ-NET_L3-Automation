@@ -271,3 +271,10 @@ cfm delete mep {{ component.mepName }}
 cfm_show_mep_database_template ="""
 cfm show mep database {{ component.mepName }}
 """
+
+
+###################
+#L3 CPE
+###################
+
+Sh_Ver = """show version"""

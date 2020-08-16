@@ -23,6 +23,11 @@ Resource          ../libraries/Resource.robot
 
 L3_Test
     [Tags]    L3_Test
+
+    #show version
+    ${template_data}=    Create Dictionary    blank='blank'
+    ${show_result}=    SHOW COMMAND    ${CPE_R1_net_connect}    Sh_Ver    ${template_data}
+    log to console    ${show_result}
     log to console  testdone
 
 
