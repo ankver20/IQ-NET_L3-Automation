@@ -164,14 +164,14 @@ Setup Actions
 Teardown Actions
     Log To Console    Teardown Actions done here
     Close Connection    ${9K_R1_net_connect}
-	Close Connection    ${9K_R2_net_connect}
-    Close Connection    ${9K_R3_net_connect}
-	Close Connection    ${9K_R4_net_connect}
+#	Close Connection    ${9K_R2_net_connect}
+#    Close Connection    ${9K_R3_net_connect}
+#	Close Connection    ${9K_R4_net_connect}
 
     Close Connection    ${NCS_R1_net_connect}
-	Close Connection    ${NCS_R2_net_connect}
-    Close Connection    ${NCS_R3_net_connect}
-	Close Connection    ${NCS_R4_net_connect}
+#	Close Connection    ${NCS_R2_net_connect}
+#    Close Connection    ${NCS_R3_net_connect}
+#	Close Connection    ${NCS_R4_net_connect}
 
     Close Connection    ${ACC_R1_net_connect}
 #	Close Connection    ${ACC_R2_net_connect}
